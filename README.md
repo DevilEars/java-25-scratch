@@ -12,15 +12,16 @@ It will also show you how to install a default SDK, for example:
 ```Bash
 sdk install java 25.0.1-tem
 ```
-I set up my IDE to use the current version as controlled by SDK, 
+I set up my IDE to use the current version as controlled by SDKMan, 
 and I rely on OS environment variables for managing default Java settings.
 
 This means project specific Java SDK settings are handled by each individual project.
 
 ## Reading list
 - [Java 25 Released](https://www.infoq.com/news/2025/09/java25-released/)
+- [The Arrival of Java 25](https://blogs.oracle.com/java/post/the-arrival-of-java-25)
 - [Shenandoah GC](https://wiki.openjdk.org/display/shenandoah/Main)
 - [Java 25 Flexible Constructor Bodies](https://www.baeldung.com/java-25-flexible-constructor-bodies)
 - [Pattern Matching for Switch](https://www.baeldung.com/java-switch-pattern-matching), this is prior to Java 25.
-- []()
+- [Primitive Types in Patterns, instanceof, and switch](https://openjdk.org/jeps/507), contains better use cases than mine.
 - [Remove the 32-bit x86 Port](https://openjdk.org/jeps/501) since virtually nobody is going to miss it
