@@ -2,10 +2,10 @@ package pattermatchingenhancements;
 
 public class BankRiskCalculator {
 
-  // a sealed interface limits implementation to only the permitted record types
+  // a sealed interface limits implementation to only the permitted record types (standard feature since Java 17)
   public sealed interface Account permits SavingsAccount, CreditCardAccount, LoanAccount {}
 
-  // the record types (since Java 14)
+  // the record types (standard feature since Java 16)
   public record SavingsAccount(double balance) implements Account {}
   public record CreditCardAccount(double limit, double used) implements Account {}
   public record LoanAccount(double total, double paid) implements Account {}
