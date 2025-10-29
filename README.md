@@ -28,3 +28,7 @@ This means project specific Java SDK settings are handled by each individual pro
 - [Method Timing in Java 25](https://blog.kelunik.com/2025/08/24/method-trace-java-25.html), for enhanced observability
 - [Shenandoah GC](https://wiki.openjdk.org/display/shenandoah/Main) main page, including an implementation overview
 - [KDF](https://openjdk.org/jeps/510), Key Derivation Function API
+- [Stable Values Explained](https://softwaremill.com/jep-502-stable-values-new-feature-of-java-25-explained/), because I'm too unstable to try
+- [PEM Encoder](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/security/PEMEncoder.html)
+- [Post-Quantum Hybrid Key Exchange for TLS 1.3](https://openjdk.org/jeps/527)
+- [HTTP/3 Specification](https://httpwg.org/specs/rfc9114.html)
