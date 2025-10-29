@@ -20,8 +20,11 @@ This means project specific Java SDK settings are handled by each individual pro
 ## Reading list
 - [Java 25 Released](https://www.infoq.com/news/2025/09/java25-released/)
 - [The Arrival of Java 25](https://blogs.oracle.com/java/post/the-arrival-of-java-25)
-- [Shenandoah GC](https://wiki.openjdk.org/display/shenandoah/Main)
 - [Java 25 Flexible Constructor Bodies](https://www.baeldung.com/java-25-flexible-constructor-bodies)
 - [Pattern Matching for Switch](https://www.baeldung.com/java-switch-pattern-matching), this is prior to Java 25.
 - [Primitive Types in Patterns, instanceof, and switch](https://openjdk.org/jeps/507), contains better use cases than mine.
 - [Remove the 32-bit x86 Port](https://openjdk.org/jeps/501) since virtually nobody is going to miss it
+- [Scoped Values](https://www.baeldung.com/java-20-scoped-values), to replace thread-local variables
+- [Method Timing in Java 25](https://blog.kelunik.com/2025/08/24/method-trace-java-25.html), for enhanced observability
+- [Shenandoah GC](https://wiki.openjdk.org/display/shenandoah/Main) main page, including an implementation overview
+- [KDF](https://openjdk.org/jeps/510), Key Derivation Function API
