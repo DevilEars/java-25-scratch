@@ -26,3 +26,5 @@ replay_pid*
 # IDE bloat files
 /.idea/
 /my-java25-project.iml
+/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
