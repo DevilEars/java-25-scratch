@@ -25,7 +25,7 @@ public class SavingsAccount extends BankAccount {
     }
 
     // Calling the super constructor after validation.
-    // This was not possible before
+    // This was not possible in previous LTS versions
     super(accountNumber, balance);
     this.interestRate = interestRate;
   }

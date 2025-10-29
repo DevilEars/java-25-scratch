@@ -21,4 +21,6 @@ This means project specific Java SDK settings are handled by each individual pro
 - [Java 25 Released](https://www.infoq.com/news/2025/09/java25-released/)
 - [Shenandoah GC](https://wiki.openjdk.org/display/shenandoah/Main)
 - [Java 25 Flexible Constructor Bodies](https://www.baeldung.com/java-25-flexible-constructor-bodies)
-- 
+- [Pattern Matching for Switch](https://www.baeldung.com/java-switch-pattern-matching), this is prior to Java 25.
+- []()
+- [Remove the 32-bit x86 Port](https://openjdk.org/jeps/501) since virtually nobody is going to miss it
