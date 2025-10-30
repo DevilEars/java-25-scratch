@@ -1,5 +1,10 @@
 package pattermatchingenhancements;
 
+///
+/// # Pattern Matching Enhancements
+/// - This is one way to do pattern matching in a switch statement
+/// - I'm not sure what is brand new here, see the Primitive Switch Examples for more lucid examples
+///
 public class BankRiskCalculator {
 
   // a sealed interface limits implementation to only the permitted record types (standard feature since Java 17)
@@ -11,7 +16,7 @@ public class BankRiskCalculator {
   public record LoanAccount(double total, double paid) implements Account {}
 
   /**
-   *
+   * Calculate the risk for an account. This uses switching on record types
    * @param account an account
    * @return a risk score
    */
