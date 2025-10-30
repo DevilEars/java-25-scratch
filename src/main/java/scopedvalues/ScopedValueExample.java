@@ -3,6 +3,11 @@ package scopedvalues;
 // Always imported by default, noice!
 // import java.lang.ScopedValue;
 
+///
+/// # Scoped Value Example
+/// - This is neater and cleaner than thread-local variables
+/// - It is also meant to replace it
+///
 public class ScopedValueExample {
   // Declare a static final ScopedValue
   static final ScopedValue<String> USER_ID = ScopedValue.newInstance();

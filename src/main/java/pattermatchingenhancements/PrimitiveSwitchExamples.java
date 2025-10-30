@@ -1,10 +1,10 @@
 package pattermatchingenhancements;
 
 ///
-/// This is a preview feature. All manner of red flags to up
-/// so you can't realistically switch on primitive types directly, yet.
+/// # Pattern matching on switch
+/// - This has been enhanced
+/// - Still under preview
 ///
-/// Boxed types are fine
 ///
 class PrimitiveSwitchExamples {
   void main() {

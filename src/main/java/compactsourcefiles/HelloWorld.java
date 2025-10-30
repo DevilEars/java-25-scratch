@@ -2,7 +2,7 @@ package compactsourcefiles;
 // no imports? wut?
 
 ///
-/// #Compact class
+/// # Compact class
 /// - No need for public access modifier of the class
 /// - java.io.
 ///

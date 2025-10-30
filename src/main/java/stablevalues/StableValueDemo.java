@@ -2,6 +2,10 @@ package stablevalues;
 
 import java.util.logging.Logger;
 
+///
+/// # Stable Values
+/// - Think of this as deferred immutability
+///
 class StableValueDemo {
   // StableValue holding a Logger instance
   // This is a final field

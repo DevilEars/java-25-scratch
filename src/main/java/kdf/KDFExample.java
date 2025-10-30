@@ -14,6 +14,11 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
+///
+/// # Key Derivation Function
+/// - KDF
+/// - Trying to make encryption too cute for future quantum computing
+///
 class KDFExample {
   private static final String TRANSFORMATION = "AES/GCM/NoPadding";
   private static final int GCM_TAG_LENGTH = 128;

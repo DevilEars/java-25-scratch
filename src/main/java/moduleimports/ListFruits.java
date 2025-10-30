@@ -5,6 +5,12 @@ import module java.base;
 
 import static java.lang.IO.println;
 
+///
+/// # Module imports
+/// - Importing the module gives access to everything in the module
+/// - No need for individual imports
+/// - Syntactic sugar?
+///
 class ListFruits {
   void main(){
     // The whole shebang from the base module is imported already

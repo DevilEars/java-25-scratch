@@ -1,7 +1,9 @@
 package breakingchanges;
 
 ///
-/// Implicit null checks for enclosing instances of inner classes
+/// # Implicit null checks for enclosing instances of inner classes
+/// - Checks for NPEs that were technically possible, if unlikely
+/// - Break hard and fast, not soft and slow
 ///
 class OuterClass {
   private final String name;
