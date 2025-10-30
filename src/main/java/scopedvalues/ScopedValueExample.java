@@ -24,7 +24,7 @@ public class ScopedValueExample {
   }
 
   static void performTask() {
-    // 3. Read the value from anywhere within the dynamic scope
+    // Read the value from anywhere within the dynamic scope
     IO.println("Task: " + USER_ID.get());
   }
 }
